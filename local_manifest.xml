@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	      <remote  name="r" fetch="https://github.com/aditya998877" />
+        <remote  name="clang" fetch="https://github.com/kdrag0n" />
+	         
+        <project path="device/xiaomi/apollo" name="device_xiaomi_apollo" remote="r" revision="A12"/>
+        <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="r" revision="A12"/>
+        <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="r" revision="arrow-12.1"/>
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+        <project path="vendor/xiaomi/apollo" name="vendor_xiaomi_apollo" remote="r" revision="12.1"/>
+        <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="r" revision="12.1"/>
+        <project path="vendor/xiaomi/MiuiCamera" name="ArrowOS-Devices/android_vendor_xiaomi_MiuiCamera" remote="github" revision="arrow-10.0"/>
+</manifest>
